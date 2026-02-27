@@ -27,5 +27,4 @@
 - Run --> Run
 
 - Confirm the Launch Configuration setting
-
-- 
+ 
