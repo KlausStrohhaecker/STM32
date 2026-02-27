@@ -1,0 +1,3 @@
+endlines lf -r Core/
+clang-format-all.sh Core/
+

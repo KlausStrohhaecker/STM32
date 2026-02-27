@@ -1,0 +1,2 @@
+inotifywait -e close_write -m -r Core --format '%w%f' --include '\.(c|h|cpp|hpp)$' | while read file; do echo "$file"; endlines lf -q "$file"; clang-format -i "$file"; done
+
